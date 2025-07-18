@@ -1,0 +1,102 @@
+/* 전체 기본 설정 */
+body {
+    font-family: 'Helvetica', 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f8f8f8;
+    color: #333;
+  }
+  header button {
+    background-color: #e11b1b;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 6px;
+    font-size: 16px;
+    transition: background-color 0.3s;
+}
+  
+  /* 헤더 스타일 */
+  header {
+    background-color: #000;
+    color: #fff;
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  header h1 {
+    margin: 0;
+    font-size: 24px;
+    letter-spacing: 1px;
+  }
+  
+  header div span {
+    margin-left: 20px;
+    cursor: pointer;
+    font-size: 16px;
+    transition: color 0.2s;
+  }
+  
+  header div span:hover {
+    color: #e11b1b; /* 슈프림 레드 */
+  }
+  
+  /* 상품 컨테이너 */
+  .container {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    padding: 40px;
+    gap: 40px;
+    max-width: 1200px;
+    margin: 0 auto;
+  }
+  
+  /* 이미지 */
+  .img img {
+    width: 400px;
+    border-radius: 8px;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+  }
+  
+  /* 상품 정보 */
+  .info {
+    max-width: 500px;
+  }
+  
+  .info h2 {
+    font-size: 28px;
+    margin-bottom: 10px;
+  }
+  
+  .info p {
+    font-size: 18px;
+    margin: 10px 0;
+  }
+  
+  .info span {
+    display: block;
+    margin: 5px 0;
+    font-size: 16px;
+    color: #555;
+  }
+  
+  /* 장바구니 버튼 */
+  .cart button {
+    background-color: #e11b1b;
+    color: white;
+    padding: 12px 24px;
+    border: none;
+    border-radius: 6px;
+    font-size: 16px;
+    margin-top: 20px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+  }
+  
+  .cart button:hover {
+    background-color: #c10f0f;
+  }
+  
